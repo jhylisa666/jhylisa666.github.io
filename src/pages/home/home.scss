@@ -1,0 +1,22 @@
+.home {
+    background-color: black;
+    h1 {
+        text-align: center;
+        margin: 30px;
+        font-size:200%;
+        color: white;
+        font-family: cursive;
+    }
+
+    .imgContainer {
+        margin-left: 37%;
+        border: 10px solid pink;
+        width: 400px;
+        height: 500px;
+        border-style: dotted;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
