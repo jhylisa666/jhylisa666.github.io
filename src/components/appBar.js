@@ -11,7 +11,7 @@ export default function ButtonAppBar() {
       <AppBar position="static" style = {{ background: 'pink' }}>
         <Toolbar variant = "dense">
         <Button color = "secondary" variant="text">About Me</Button>
-        <Button color = "secondary" variant="text">Experience</Button>
+        <Button color = "secondary" variant="text">Projects</Button>
         </Toolbar>
       </AppBar>
     </Box>
