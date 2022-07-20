@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <div className="middlePanel">
           <div className="imgContainer">
-            <img src="assets/headshot.jpg" alt="" />
+            <img src="headshot.jpg" alt="" />
           </div>
         </div>
         <div className="linksContainer">
