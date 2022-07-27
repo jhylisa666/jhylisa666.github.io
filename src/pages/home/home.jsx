@@ -31,12 +31,20 @@ export default function Home() {
           </div>
         </div>
         <div className="linksContainer">
+        <a href = "https://github.com/jhylisa666">
+          <div className="GitLogo">
           <img src={require("./GitHubLogo.png")} alt="" />
+          </div>
+          </a>
           <div className="LinkedInLogo">
+            <a href="https://linkedin.com/in/haiyijiang">
             <img src={require("./linkedinLogo.png")} alt="" />
+            </a>
           </div>
           <div className="buttons">
-          <Button size = "small" color = "secondary" variant="contained">resume</Button>
+          <a href="resume.pdf" download="resume.pdf">
+          <Button size = "small" variant="outlined">resume</Button>
+          </a>
           </div>
         </div>
       </div>
