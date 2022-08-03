@@ -8,7 +8,7 @@ import './appBar.scss'
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style = {{ background: 'pink' }}>
+      <AppBar position="static" style={{ background: '#ecbca4' }}>
         <Toolbar variant = "dense">
         <Button color = "secondary" variant="text">About Me</Button>
         <Button color = "secondary" variant="text">Projects</Button>
