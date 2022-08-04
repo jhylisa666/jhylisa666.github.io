@@ -1,15 +1,19 @@
 import * as React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
-import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
+import { Typography } from '@mui/material';
 
-export default function SimpleContainer() {
-  return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container>
-        <Box sx={{ bgcolor: '#a4747c', height: '80vh', width:'200vh'}} />
-      </Container>
-    </React.Fragment>
-  );
+export default function SimpleContainer({ children }) {
+    return (
+        <React.Fragment>
+            <CssBaseline />
+            <Container>
+                <Typography component="div" style={{
+                    backgroundColor: '#a4747c', height: '80vh'
+                }}>
+                    {children}
+                </Typography>
+            </Container>
+        </React.Fragment>
+    );
 }

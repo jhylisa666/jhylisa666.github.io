@@ -8,7 +8,6 @@ function App() {
     <div className="app">
       <div className="sections">
         <Home/>
-        hi
         <Projects/>
       </div>
     </div>
