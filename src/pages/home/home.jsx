@@ -1,12 +1,14 @@
 import React from 'react'
 import './home.scss'
-import ResponsiveAppBar from '../../components/appBar.js'
+import NavBar from '../../components/navBar.js'
 import SimpleContainer from '../../components/container.js'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Home() {
   return (
     <div className='home'>
-      <ResponsiveAppBar> {ResponsiveAppBar}</ResponsiveAppBar>
+      <NavBar> {NavBar}</NavBar>
       <h1>Lisa Haiyi Jiang</h1>
       <div className="boxContainer">
         <SimpleContainer>
@@ -24,11 +26,20 @@ export default function Home() {
                 <br></br><br></br>
                 See my work under Projects.
               </body>
+              <div className='icons'>
+                <div className='icon'>
+                  <GitHubIcon fontSize='large' sx={{ color: '#355070' }}/>
+                </div>
+                <div className='icon'>
+                  <LinkedInIcon fontSize='large' sx={{ color: '#355070' }}/>
+                </div>
+              </div>
             </div>
             <div className="middlePanel">
               <div className="imgContainer">
                 <img src={require("./headshot.jpg")} alt="" />
               </div>
+
             </div>
           </div>
         </SimpleContainer>

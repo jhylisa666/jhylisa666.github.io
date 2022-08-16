@@ -10,7 +10,6 @@
 
     .boxContainer {
         color: #4c1559;
-        
         .flexContainer {
             display: flex;
             .txtContainer {
@@ -28,8 +27,18 @@
                     margin: 5px;
                     padding-left: 15px;
                     background-color: transparent;
+                    font-synthesis:weight;
                     font-weight:bolder;
-                    color: #355070;
+                    color: #f5e2be;
+                }
+                .icons {
+                    display: flex;
+                }
+                .icon {
+                    margin: 10px;
+                    size: 120%;
+                    margin-top: 30px;
+                    padding-left: 5px;
                 }
                 
             }
