@@ -4,6 +4,7 @@ import NavBar from '../../components/navBar.js'
 import SimpleContainer from '../../components/container.js'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Link from '@material-ui/core/Link';
 
 export default function Home() {
   return (
@@ -28,11 +29,14 @@ export default function Home() {
               </body>
               <div className='icons'>
                 <div className='icon'>
-                  <GitHubIcon fontSize='large' sx={{ color: '#355070' }}/>
+                  <Link href='https://github.com/jhylisa666' color='#4c1559'><GitHubIcon fontSize='large' /></Link>
                 </div>
                 <div className='icon'>
-                  <LinkedInIcon fontSize='large' sx={{ color: '#355070' }}/>
+                  <Link href='https://www.linkedin.com/in/haiyijiang/' color='#4c1559'><LinkedInIcon fontSize='large' /></Link>
                 </div>
+                <Link className='resume' href='https://drive.google.com/file/d/1X5tJUIhxoEfyBCGrQOc5csqHJR-6hjVV/view?usp=sharing'>
+                  Resume
+                </Link>
               </div>
             </div>
             <div className="middlePanel">

@@ -9,7 +9,7 @@ export default function SimpleContainer({ children }) {
             <CssBaseline />
             <Container>
                 <Typography component="div" style={{
-                    backgroundColor: '#a4747c', height: '80vh', 
+                    backgroundColor: '#a4747c', height: '75vh', 
                     border: '10px solid #6f6068', 
                     borderStyle: 'double'
                 }}>

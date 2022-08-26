@@ -35,11 +35,21 @@
                     display: flex;
                 }
                 .icon {
-                    margin: 10px;
+                    margin: 5px;
                     size: 120%;
                     margin-top: 30px;
-                    padding-left: 5px;
+                    padding-left: 10px;
                 }
+                .resume {
+                    padding-top:5px;
+                    color: #355070;
+                    font-family: 'Neonderthaw', cursive;
+                    font-size: 200%;
+                    font-weight:bold;
+                    margin: 15px;
+                }
+                
+                
                 
             }
             .middlePanel {
@@ -53,7 +63,7 @@
                     border-radius: 40%;
                     display: flex;
                     align-items: flex-end;
-                    margin: 20px;
+                    margin: 25px;
                 }
     
             }
