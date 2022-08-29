@@ -29,10 +29,10 @@ export default function Home() {
               </body>
               <div className='icons'>
                 <div className='icon'>
-                  <Link href='https://github.com/jhylisa666' color='#4c1559'><GitHubIcon fontSize='large' /></Link>
+                  <Link href='https://github.com/jhylisa666' color='#6d597a'><GitHubIcon fontSize='large' /></Link>
                 </div>
                 <div className='icon'>
-                  <Link href='https://www.linkedin.com/in/haiyijiang/' color='#4c1559'><LinkedInIcon fontSize='large' /></Link>
+                  <Link href='https://www.linkedin.com/in/haiyijiang/' color='#6d597a'><LinkedInIcon fontSize='large' /></Link>
                 </div>
                 <Link className='resume' href='https://drive.google.com/file/d/1X5tJUIhxoEfyBCGrQOc5csqHJR-6hjVV/view?usp=sharing'>
                   Resume
